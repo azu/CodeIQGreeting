@@ -1,0 +1,22 @@
+PODS:
+  - AZDateBuilder (0.1)
+  - Kiwi (2.2.2):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.2)
+  - Kiwi/NonARC (2.2.2)
+  - Kiwi/SenTestingKit (2.2.2):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - NSDate-Escort (1.2.0)
+
+DEPENDENCIES:
+  - AZDateBuilder
+  - Kiwi
+  - NSDate-Escort
+
+SPEC CHECKSUMS:
+  AZDateBuilder: aa442a142b170612c2ef36ea2aa44199345748a5
+  Kiwi: 03539aeb004ccd42bdbc31253617b26364315df4
+  NSDate-Escort: f940f313d71ac25a20c126170074b576df391340
+
+COCOAPODS: 0.25.0
