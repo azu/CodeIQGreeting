@@ -62,7 +62,5 @@ SPEC_BEGIN(GreeterSpec)
                 }];
             });
         });
-    }
-
-    );
+    });
     SPEC_END
