@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17B5C2BB342C1FB1453B5CEE /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5C6B2E29C01065F591AC2 /* GreeterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreeterUtil.m; sourceTree = "<group>"; };
 		17B5CA445846B22DC79DCB98 /* Greeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
 		17B5CA64FE8A89B81F68B9E0 /* Greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 				7389A05317FC63F900DEA6AB /* Products */,
 				EDDB5CAB86E0474BA612AFE5 /* Pods-CodeIQGreetingTests.xcconfig */,
 				2661F4EACE9643AE8F19BF19 /* Pods-CodeIQGreeting.xcconfig */,
+				17B5C2BB342C1FB1453B5CEE /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
