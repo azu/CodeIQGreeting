@@ -4,18 +4,19 @@
 
 
 #import "GreeterUtil.h"
-#import "NSDate+AZDateBuilder.h"
 
 
 @implementation GreeterUtil {
 
 }
 + (NSDate *)dateWithHour:(NSUInteger) hour minute:(NSUInteger) minute second:(NSUInteger) second {
-    return [NSDate AZ_dateByUnit:@{
-        AZ_DateUnit.hour : @(hour),
-        AZ_DateUnit.minute : @(minute),
-        AZ_DateUnit.second : @(second)
-    }];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    calendar.timeZone = [NSTimeZone timeZoneWithName:@"Asia/Tokyo"];
+    NSDateComponents *components = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit fromDate:[NSDate date]];
+    [components setHour:hour];
+    [components setMinute:minute];
+    [components setSecond:second];
+    return [calendar dateFromComponents:components];
 }
 
 @end

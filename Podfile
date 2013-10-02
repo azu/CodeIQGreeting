@@ -2,12 +2,11 @@
 # platform :ios, "6.0"
 
 target "CodeIQGreeting" do
-	pod 'NSDate-Escort'
+  pod 'NSDate-Escort'
 end
 
 target "CodeIQGreetingTests" do
-	pod 'Kiwi'
-	pod 'AZDateBuilder'
-	pod 'NSDate-Escort'
+  pod 'Kiwi'
+  pod 'NSDate-Escort'
 end
 
